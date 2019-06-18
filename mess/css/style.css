@@ -2,7 +2,7 @@ body {
     margin: auto;
     font: 14px/18px 'Open Sans',"Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana,sans-serif;
         max-width: 420px;
-    border: 3px solid #f1f1f1;
+   
     
 }
 strong {
@@ -58,6 +58,7 @@ pre {
     text-decoration: underline;
 }
 .page_header {
+        background: #5682a3;
     position: inital;
     z-index: 10;
     background-color: #ffffff;
@@ -83,6 +84,7 @@ pre {
     color: #70777b;
 }
 .page_header .content .text {
+        color: #fff;
     padding: 10px;
     font-size: 18px;
     overflow: hidden;
@@ -94,6 +96,7 @@ pre {
     padding: 24px 24px 22px 82px;
 }
 .page_body {
+     border-left: 3px solid #f1f1f1;
     border-bottom: 1px solid #f1f1f1;
     overflow-x: hidden;
     height: 600px;
