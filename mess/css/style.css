@@ -89,6 +89,7 @@ pre {
     padding: 24px 24px 22px 82px;
 }
 .page_body {
+    border-bottom: 1px solid #f1f1f1;
     overflow-x: hidden;
     height: 500px;
         width: 100%;
