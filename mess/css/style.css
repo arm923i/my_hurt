@@ -62,7 +62,7 @@ pre {
     border-bottom: 1px solid #e3e6e8;
 }
 .page_header .content {
-    width: 480px;
+    width: 100%;
     margin: 0 auto;
     border-radius: 0 !important;
 }
@@ -91,7 +91,8 @@ pre {
 .page_body {
     overflow-x: hidden;
     height: 500px;
-        width: 400px;
+        width: 100%;
+    max-width:420px;
     overflow-y: initial;
     margin: 0 auto 0;
     padding-top: 0;
@@ -253,7 +254,7 @@ a.block_link:hover {
     padding: 16px 0;
 }
 .message {
-    margin: 0 -10px;
+    margin: auto;
     transition: background-color 2.0s ease;
 }
 div.selected {
