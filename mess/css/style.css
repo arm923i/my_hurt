@@ -1,6 +1,9 @@
 body {
-    margin: 0;
+    margin: auto;
     font: 14px/18px 'Open Sans',"Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana,sans-serif;
+        max-width: 420px;
+    border: 3px solid #f1f1f1;
+    
 }
 strong {
     font-weight: 700;
@@ -76,12 +79,14 @@ pre {
     font-weight: 700;
 }
 .details {
+    font-size: 12px;
     color: #70777b;
 }
 .page_header .content .text {
-    padding: 24px 24px 22px 24px;
-    font-size: 22px;
+    padding: 10px;
+    font-size: 18px;
     overflow: hidden;
+    
     text-overflow: ellipsis;
     white-space: nowrap;
 }
@@ -91,7 +96,7 @@ pre {
 .page_body {
     border-bottom: 1px solid #f1f1f1;
     overflow-x: hidden;
-    height: 500px;
+    height: 600px;
         width: 100%;
     max-width:420px;
     overflow-y: initial;
@@ -263,7 +268,7 @@ div.selected {
     transition: background-color 0.5s ease;
 }
 .service {
-    padding: 10px 24px;
+    padding: 5px;
 }
 .service .body {
     text-align: center;
