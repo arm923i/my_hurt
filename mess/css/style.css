@@ -296,6 +296,7 @@ div.selected {
     margin-top: -10px;
 }
 .default .from_name {
+	    font-weight: 300;
     color: #3892db;
     font-weight: 700;
     padding-bottom: 5px;
