@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font: 12px/18px 'Open Sans',"Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana,sans-serif;
+    font: 14px/18px 'Open Sans',"Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana,sans-serif;
 }
 strong {
     font-weight: 700;
@@ -55,14 +55,14 @@ pre {
     text-decoration: underline;
 }
 .page_header {
-    position: fixed;
+    position: inital;
     z-index: 10;
     background-color: #ffffff;
     width: 100%;
     border-bottom: 1px solid #e3e6e8;
 }
 .page_header .content {
-    width: 480px;
+    width: 100%;
     margin: 0 auto;
     border-radius: 0 !important;
 }
@@ -89,6 +89,14 @@ pre {
     padding: 24px 24px 22px 82px;
 }
 .page_body {
+    overflow-x: hidden;
+    height: 500px;
+        width: 100%;
+    max-width:420px;
+    overflow-y: initial;
+    margin: 0 auto 0;
+    padding-top: 0;
+}
     padding-top: 64px;
     width: 480px;
     margin: 0 auto;
@@ -246,7 +254,7 @@ a.block_link:hover {
     padding: 16px 0;
 }
 .message {
-    margin: 0 -10px;
+    margin: auto;
     transition: background-color 2.0s ease;
 }
 div.selected {
