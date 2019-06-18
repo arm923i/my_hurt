@@ -59,9 +59,8 @@ pre {
 }
 .page_header {
         background: #5682a3;
-    position: inital;
+    position: initial;
     z-index: 10;
-    background-color: #ffffff;
     width: 100%;
     border-bottom: 1px solid #e3e6e8;
 }
