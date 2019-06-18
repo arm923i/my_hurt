@@ -159,6 +159,7 @@ pre {
 .color_purple,
 .userpic5,
 .media_game .fill {
+    background-image: url(../images/ann.jpg);
     background-color: #9884e8;
 }
 .color_pink,
@@ -175,6 +176,7 @@ pre {
 .color_orange,
 .userpic8,
 .media_contact .fill {
+    background-image: url(../images/and.jpg);
     background-color: #ff8c44;
 }
 .personal_info {
