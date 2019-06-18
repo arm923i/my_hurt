@@ -128,7 +128,7 @@ pre {
     overflow: hidden;
 }
 .userpic .initials {
-    display: block;
+  display: none;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
@@ -161,6 +161,8 @@ pre {
 .color_purple,
 .userpic5,
 .media_game .fill {
+	    background-position: center;
+    background-size: contain;
     background-image: url(../images/ann.jpg);
     background-color: #9884e8;
 }
@@ -178,6 +180,8 @@ pre {
 .color_orange,
 .userpic8,
 .media_contact .fill {
+	    background-position: center;
+    background-size: contain;
     background-image: url(../images/and.jpg);
     background-color: #ff8c44;
 }
